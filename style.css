@@ -1,0 +1,130 @@
+body 
+{
+	padding: 0 ;
+	margin: 0;
+	background-color: #fff;
+	font-family: 'Tahoma', 'Geneva', sans-serif;
+}
+
+#header
+{
+	background-color: #004d26 ;
+	width:100% ; 
+	margin:0 ;
+	height: 380px;
+	color: white ;
+	font-size:100px;
+	font-weight: bold;
+}
+
+#logo
+{
+	padding: 20px;
+	width: 50%;
+	margin: auto ;
+}
+
+p
+{
+	font-weight: bold;
+	font-size: 25px;
+}
+#left 
+{
+	float: left;
+    width:30%;
+    padding: 0px 30px 30px 30px;
+    margin: 0 10px 10px 20px;
+    height: 200px;
+}
+#rigth
+{
+	font-size: 20px;
+	float: left;
+    width:50%;
+    padding: 30px;
+   margin: 0 10px 10px 20px;
+   height: 200px;
+}
+
+
+#header a
+{
+  font-size: 20;
+  color: white;
+  float: right;
+  margin-right: 30px;
+  margin-top: 50px;
+  text-decoration:none;
+}
+
+#header img
+{
+	width: 100%;
+	height: 200px;
+}
+
+.container
+{
+	padding: 20px;
+	width: 50%;
+	margin: auto ;
+	background: #dddddd;
+	height: 500px;
+    line-height: 1.5;
+}
+
+#sub
+{
+	padding: 5px ;
+	width: auto;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius : 5px;
+	font-size: 90%;
+	background: #004d26 ;	 
+}
+
+input 
+{
+	width: 120px;
+	height:30px;
+	padding: 3px;
+	margin:6px 0;
+}
+
+label
+{ 
+ font-weight: bold;
+}
+footer
+{
+	background-color: #004d26 ;
+	width:100% ; 
+	height: 100px;
+	color: white ;
+	font-size: 120%;
+	text-align: center;
+	padding: 0 ;
+	margin: 0;
+	float: left;
+}
+
+.heading
+{ 
+    padding: 5px 0 0 0;
+    margin: 10px 0 30px 0 ;
+    border-radius: 2px;
+    color: #FFF;
+    background: #6aadf1;
+}
+
+}
+
+
+.btnAddAction {
+    padding: 3px 10px;
+    cursor: pointer;
+    border: #CCC 1px solid;
+    background: #f3f0f0;
+}
